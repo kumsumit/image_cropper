@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.2'
+        classpath 'com.android.tools.build:gradle:8.7.3'
     }
 }
 
@@ -25,16 +25,16 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'vn.hunghd.flutter.plugins.imagecropper'
-    compileSdkVersion 34
+    compileSdk 35
 
     defaultConfig {
-        minSdkVersion 16
+        minSdk 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.yalantis:ucrop:2.2.8'
+        implementation 'com.github.yalantis:ucrop:2.2.9'
     }
 }
