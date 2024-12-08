@@ -94,10 +94,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3188d3931eed01a999261e70ae666f5a87b947d9"
+      resolved-ref: "7ee320599c75fc93c202c7a5714484a80d0f6f4a"
       url: "https://github.com/kumsumit/image_cropper_platform_interface.git"
     source: git
-    version: "5.0.0"
+    version: "7.0.0"
   js:
     dependency: transitive
     description:
